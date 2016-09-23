@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author: Everyone's Repo
+Depiction: https://github.com/EveryonesRepo/everyonesrepo.github.io
+Description: Adds Icon Images
+Maintainer: Everyone's Repo <reponame@example.com>
+Name: icons
+Package: com.EveryonesRepo.icon
+Section: Tweaks
+Version: 1.0

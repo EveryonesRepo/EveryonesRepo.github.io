@@ -1,0 +1,15 @@
+Package: com.EveryonesRepo.icon
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Everyone's Repo <reponame@example.com>
+Filename: ./debs/com.everyonesrepo.icon_1.0_iphoneos-arm.deb
+Size: 4064
+MD5sum: d51e1bd1ae3b3813043921c9ba311144
+SHA1: 53563548c572c205fbc50fffba54f7501f41c015
+SHA256: e32053310dfc54dd906b73e405472a54dcd36f36aea10cf410d68bbff0c6078a
+Section: Tweaks
+Description: Adds Icon Images
+Author: Everyone's Repo
+Depiction: https://github.com/EveryonesRepo/everyonesrepo.github.io
+Name: icons
+
