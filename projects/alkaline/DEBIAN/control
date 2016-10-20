@@ -1,0 +1,13 @@
+Package: com.fortysixandtwo.alkaline
+Name: Alkaline
+Version: 1.3
+Architecture: iphoneos-arm
+Author: magn2o <magn2o@gmail.com>
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Depiction: http://modmyi.com/info/alkaline.d.php
+Priority: extra
+Section: Tweaks
+Description: Themeable status bar battery replacement for iOS 7.
+Homepage: http://modmyi.com/info/alkaline.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>

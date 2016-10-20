@@ -3,13 +3,32 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Everyone's Repo <reponame@example.com>
 Filename: ./debs/com.everyonesrepo.icon_1.0_iphoneos-arm.deb
-Size: 4064
-MD5sum: d51e1bd1ae3b3813043921c9ba311144
-SHA1: 53563548c572c205fbc50fffba54f7501f41c015
-SHA256: e32053310dfc54dd906b73e405472a54dcd36f36aea10cf410d68bbff0c6078a
+Size: 4072
+MD5sum: c9e55accc5ae91899a85760e23fa0372
+SHA1: 2f940f8a96fbaf86e68caa80a826f796e0ee1034
+SHA256: 264db0717ac1fc509cd065de70fe756ae0f576082bb9f8e19fbfa33376683bff
 Section: Tweaks
 Description: Adds Icon Images
 Author: Everyone's Repo
 Depiction: https://github.com/EveryonesRepo/everyonesrepo.github.io
 Name: icons
+
+Package: com.fortysixandtwo.alkaline
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.fortysixandtwo.alkaline_1.3_iphoneos-arm.deb
+Size: 172990
+MD5sum: dab4eb11bed7b6bb4d8ad728a351d481
+SHA1: 1af856dc44f7a222a92d60f9da37b7198881b42e
+SHA256: 6329c08a82374f1ff54ecf83d3a34743e6be8a843a4cce77d6e8d2ad39736bc4
+Section: Tweaks
+Priority: extra
+Homepage: http://modmyi.com/info/alkaline.php
+Description: Themeable status bar battery replacement for iOS 7.
+Author: magn2o <magn2o@gmail.com>
+Depiction: http://modmyi.com/info/alkaline.d.php
+Name: Alkaline
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
