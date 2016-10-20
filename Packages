@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: Everyone's Repo <reponame@example.com>
 Filename: ./debs/com.everyonesrepo.icon_1.0_iphoneos-arm.deb
 Size: 4072
-MD5sum: c9e55accc5ae91899a85760e23fa0372
-SHA1: 2f940f8a96fbaf86e68caa80a826f796e0ee1034
-SHA256: 264db0717ac1fc509cd065de70fe756ae0f576082bb9f8e19fbfa33376683bff
+MD5sum: ebaa1ab78bcf0756d7e5b834e0c2c1b9
+SHA1: be950f1cbed4d44cc585fe0d5d64448de4d3e054
+SHA256: 5ce1dddfbfb73d0ac842f10fd9ff0ac4252afa4a22215fc9dc21ec80ee5e48a9
 Section: Tweaks
 Description: Adds Icon Images
 Author: Everyone's Repo
@@ -20,9 +20,9 @@ Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.fortysixandtwo.alkaline_1.3_iphoneos-arm.deb
 Size: 172990
-MD5sum: dab4eb11bed7b6bb4d8ad728a351d481
-SHA1: 1af856dc44f7a222a92d60f9da37b7198881b42e
-SHA256: 6329c08a82374f1ff54ecf83d3a34743e6be8a843a4cce77d6e8d2ad39736bc4
+MD5sum: c399c7be6c5ea0cbc614e2fb2f6a5a04
+SHA1: f1cce3504cc9c66efc6f180118a60b5ca94354ab
+SHA256: caa4ae868c7e44781c1db530d07d785688f2c90c9ba12c4346fde9c047e20f9e
 Section: Tweaks
 Priority: extra
 Homepage: http://modmyi.com/info/alkaline.php
@@ -31,4 +31,26 @@ Author: magn2o <magn2o@gmail.com>
 Depiction: http://modmyi.com/info/alkaline.d.php
 Name: Alkaline
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
+Package: com.saurik.afc2d
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
+Size: 18206
+MD5sum: b72edf2a082cde20476af2b9f6e20ed6
+SHA1: 8a3a890c4d0bfb0b11de0e0f61b6ea42e151415c
+SHA256: be9cfb6b52637170a4793bfd9436010ab991276950c2b0c8293e88b7921ff045
+Section: System
+Priority: optional
+Description: allow full file-system access over USB
+Tag: purpose::daemon, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+Name: Apple File Conduit "2"
 
