@@ -1,0 +1,14 @@
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bettertextselectionDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bettertextselectionDp
+Author: Frozen Penguin <penguins_can_fly@live.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Name: BetterTextSelection
+Package: com.fpt.bettertextselection
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Section: Tweaks
+Installed-Size: 82
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Fixes the default text selection.
+dev: frozenpenguin
+Tag: purpose::extension, compatible::ios9
