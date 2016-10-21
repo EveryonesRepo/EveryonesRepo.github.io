@@ -1,3 +1,22 @@
+Package: com.fortysixandtwo.alkaline
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.fortysixandtwo.alkaline_1.3_iphoneos-arm.deb
+Size: 172990
+MD5sum: c9671ee64750349c2584e0243d37a11c
+SHA1: b51b6f460fc0e67df86a2f0cc40bc477dd5a4f5d
+SHA256: 7fb7268505e6c59875e1e83f493aa63c03b90d2e6b967b25ba4a80aee43ea476
+Section: Tweaks
+Priority: extra
+Homepage: http://modmyi.com/info/alkaline.php
+Description: Themeable status bar battery replacement for iOS 7.
+Author: magn2o <magn2o@gmail.com>
+Depiction: http://modmyi.com/info/alkaline.d.php
+Name: Alkaline
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+
 Package: com.fpt.bettertextselection
 Version: 1.0
 Architecture: iphoneos-arm
@@ -6,9 +25,9 @@ Installed-Size: 82
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
 Filename: ./debs/com.fpt.bettertextselection_1.0_iphoneos-arm.deb
 Size: 3286
-MD5sum: 93de04457cabf91072241de65f98d124
-SHA1: 65015f40e71530ba32a1ee4d7e7183849aa5a400
-SHA256: f9b5615b7e5cba8c1e02eab986b264c341c072d8e612d7a05ff71f393c4d2866
+MD5sum: ae0ba7bf7407e439acbe02097b67227c
+SHA1: 8a002f2be438317188a417bd26e3f8b26d550a1c
+SHA256: bca087c9a93ba919ff9435fdc47b0cf289d9d053632952e33277ab141a0f5b97
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bettertextselectionDp
 Description: Fixes the default text selection.
@@ -17,4 +36,106 @@ Author: Frozen Penguin <penguins_can_fly@live.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bettertextselectionDp
 Dev: frozenpenguin
 Name: BetterTextSelection
+
+Package: com.niro.Kik8
+Version: 4.2-562+debug
+Architecture: iphoneos-arm
+Maintainer: kTweaks
+Installed-Size: 1040
+Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
+Conflicts: com.kTweaks.Kik8
+Filename: ./debs/com.niro.kik8_4.2-562+debug_iphoneos-arm.deb
+Size: 358712
+MD5sum: 530e01d04e0b2d52f60071342b01abc5
+SHA1: d2a9ce6f419fc04e6d43483c6e4ec6ee45c001fc
+SHA256: d10daa5f42bffbbe41300a801d86bba6f6460dbe0a56aef0c073555701835652
+Section: Tweaks
+Homepage: http://thebigboss.org/
+Description: kik8 brings the user the very best experience from fake camera to being 'hidden' v1.2 will have custom text color, and much more ;)
+Author: kTweaks
+Name: K8
+
+Package: com.saurik.afc2d
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (<< 8.0) | mobilesubstrate
+Conflicts: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
+Size: 18206
+MD5sum: 3bc46223251ded1d4e667f43b0ab04e3
+SHA1: a6980adb5593dabf8e975399a93bcfd8f1dc5c79
+SHA256: c9d9c48305041ffc8582aaa9bda908d59b13184fea8657594c63bd9c9879e4f0
+Section: System
+Priority: optional
+Description: allow full file-system access over USB
+Tag: purpose::daemon, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.afc2d/
+Name: Apple File Conduit "2"
+
+Package: crash-reporter
+Version: 1.14.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1456
+Pre-Depends: firmware (>=4.0)
+Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
+Filename: ./debs/crash-reporter_1.14.0-1_iphoneos-arm.deb
+Size: 334296
+MD5sum: 435da171c4186f1901a3e2f5b5689167
+SHA1: 2cc96890e05f2a66c5f3eb7dae05a92e2582acaa
+SHA256: acf3a21cbd755b2a66ad81a7647a9c9638b4ae326819ab735e471b4f71cc8a58
+Section: System
+Homepage: http://github/ashikase/CrashReporter/
+Description: Send useful crash info to developers.
+Tag: purpose::uikit, role::enduser
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=crashreporterData
+Dev: ashikase
+Name: CrashReporter
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: info.rpdev.betterfivecolumnhomescreen
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 130
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), com.chpwn.iconsupport
+Filename: ./debs/info.rpdev.betterfivecolumnhomescreen_1.0.1_iphoneos-arm.deb
+Size: 11610
+MD5sum: 8824e8f57d82dac33dcc9b740a88e02d
+SHA1: 86f983bb18cb12fd98c2ad0805eadaf1969a8eaa
+SHA256: a9ce79de8f5b3ec31b15df0ced7e8db1825d65c10c315523dd59ef760a10a80c
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterfivecolumnhomescreenDp
+Description: Five Column Homescreen with proper spacing!
+Tag: purpose::extension, compatible::ios8, compatible::ios9
+Author: Redpandadev <rpdev@rpdev.info>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterfivecolumnhomescreenDp
+Dev: rpdev
+Name: betterFiveColumnHomescreen
+
+Package: info.rpdev.betterfiveicondock
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 130
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), com.chpwn.iconsupport
+Filename: ./debs/info.rpdev.betterfiveicondock_1.0.4_iphoneos-arm.deb
+Size: 10674
+MD5sum: 0b9872bf0b43ef0c1dcca1cf891155ce
+SHA1: f493b07cb84f8c79fe4bc2d33afb9406f86d006e
+SHA256: 565655784a41412c461163f646a8a756fd144587957e973506ab726396b1adab
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterfiveicondockDp
+Description: Five Icon Dock with proper spacing!
+Tag: purpose::extension, compatible::ios8, compatible::ios9
+Author: Redpandadev <rpdev@rpdev.info>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterfiveicondockDp
+Dev: rpdev
+Name: betterFiveIconDock
 
