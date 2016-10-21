@@ -1,0 +1,16 @@
+Package: crash-reporter
+Architecture: iphoneos-arm
+Pre-Depends: firmware (>=4.0)
+Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
+Section: System
+Tag: purpose::uikit, role::enduser
+Name: CrashReporter
+Description: Send useful crash info to developers.
+Homepage: http://github/ashikase/CrashReporter/
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=crashreporterData
+dev: ashikase
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Version: 1.14.0-1
+Installed-Size: 1456

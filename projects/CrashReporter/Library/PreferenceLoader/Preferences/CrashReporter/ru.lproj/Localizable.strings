@@ -1,0 +1,7 @@
+TITLE_NOTIFY_SEND = "Отправлять уведомления когда:";
+PREF_NOTIFY_EXCESS_CPU = "Чрезмерное использование ЦП";
+PREF_NOTIFY_EXCESS_MEMORY = "Чрезмерное использование памяти";
+PREF_NOTIFY_EXCESS_WAKEUPS = "Чрезмерные пробуждения";
+PREF_NOTIFY_EXECUTION_TIMEOUTS = "Тайм-аут выполнения";
+PREF_NOTIFY_LOW_MEMORY = "Мало мамяти";
+PREF_NOTIFY_SANDBOX_VIOLATIONS = "Нарушены правила Песочницы";
