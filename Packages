@@ -5,9 +5,9 @@ Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Filename: ./debs/com.fortysixandtwo.alkaline_1.3_iphoneos-arm.deb
 Size: 172990
-MD5sum: c9671ee64750349c2584e0243d37a11c
-SHA1: b51b6f460fc0e67df86a2f0cc40bc477dd5a4f5d
-SHA256: 7fb7268505e6c59875e1e83f493aa63c03b90d2e6b967b25ba4a80aee43ea476
+MD5sum: bb4b468fc16787f88f6a5a8faf837367
+SHA1: 9fb67921035778a5472421372c26b940d9b0c16f
+SHA256: 2c916f3ce991772dd277ce7a1ee8f44fca42f1c28754c5ccfab6f8db7703dbd5
 Section: Tweaks
 Priority: extra
 Homepage: http://modmyi.com/info/alkaline.php
@@ -25,9 +25,9 @@ Installed-Size: 82
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
 Filename: ./debs/com.fpt.bettertextselection_1.0_iphoneos-arm.deb
 Size: 3286
-MD5sum: ae0ba7bf7407e439acbe02097b67227c
-SHA1: 8a002f2be438317188a417bd26e3f8b26d550a1c
-SHA256: bca087c9a93ba919ff9435fdc47b0cf289d9d053632952e33277ab141a0f5b97
+MD5sum: 250751cfbde73100cb41793005f5a9a0
+SHA1: 72b58aa142bd3ddc0c370252acbdc50201db29fe
+SHA256: 23c371f0c0f036044f2b901ea435859f7066c2c896ffee3846e5d94a8c7e1072
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bettertextselectionDp
 Description: Fixes the default text selection.
@@ -46,9 +46,9 @@ Depends: mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker (>= 1.
 Conflicts: com.kTweaks.Kik8
 Filename: ./debs/com.niro.kik8_4.2-562+debug_iphoneos-arm.deb
 Size: 358712
-MD5sum: 530e01d04e0b2d52f60071342b01abc5
-SHA1: d2a9ce6f419fc04e6d43483c6e4ec6ee45c001fc
-SHA256: d10daa5f42bffbbe41300a801d86bba6f6460dbe0a56aef0c073555701835652
+MD5sum: 6a557cfaf25aacde739929c6384e8b5b
+SHA1: 5f8656e159f7a01d8a1fb32aa7580473408fd12f
+SHA256: fa9a71b734dd5d1d2e1f43fa8f0d7c5a271676927e7913661e2dd168f9aff08e
 Section: Tweaks
 Homepage: http://thebigboss.org/
 Description: kik8 brings the user the very best experience from fake camera to being 'hidden' v1.2 will have custom text color, and much more ;)
@@ -66,9 +66,9 @@ Replaces: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc
 Provides: us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Filename: ./debs/com.saurik.afc2d_1.2_iphoneos-arm.deb
 Size: 18206
-MD5sum: 3bc46223251ded1d4e667f43b0ab04e3
-SHA1: a6980adb5593dabf8e975399a93bcfd8f1dc5c79
-SHA256: c9d9c48305041ffc8582aaa9bda908d59b13184fea8657594c63bd9c9879e4f0
+MD5sum: 45de7cf67d763d069aa82d0011aaf33e
+SHA1: dc080095e7880583f6a1bff6ee6130f12e7b22e8
+SHA256: cbe8b5230f8c10b5d560d4bea3d86a15eeb4ffc383a80e48f897826e706563ff
 Section: System
 Priority: optional
 Description: allow full file-system access over USB
@@ -86,9 +86,9 @@ Pre-Depends: firmware (>=4.0)
 Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
 Filename: ./debs/crash-reporter_1.14.0-1_iphoneos-arm.deb
 Size: 334296
-MD5sum: 435da171c4186f1901a3e2f5b5689167
-SHA1: 2cc96890e05f2a66c5f3eb7dae05a92e2582acaa
-SHA256: acf3a21cbd755b2a66ad81a7647a9c9638b4ae326819ab735e471b4f71cc8a58
+MD5sum: cfb66fdddccf5aaac49f89517e352091
+SHA1: 65cefa89cb5f7294fd5d13a54be12a82c797451b
+SHA256: 5b7c405fac7dbf0ec7f1310843771172ef41e3f58f686fb8d9c0eec2fed40dbf
 Section: System
 Homepage: http://github/ashikase/CrashReporter/
 Description: Send useful crash info to developers.
@@ -107,9 +107,9 @@ Installed-Size: 130
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), com.chpwn.iconsupport
 Filename: ./debs/info.rpdev.betterfivecolumnhomescreen_1.0.1_iphoneos-arm.deb
 Size: 11610
-MD5sum: 8824e8f57d82dac33dcc9b740a88e02d
-SHA1: 86f983bb18cb12fd98c2ad0805eadaf1969a8eaa
-SHA256: a9ce79de8f5b3ec31b15df0ced7e8db1825d65c10c315523dd59ef760a10a80c
+MD5sum: e2af6f2a77321aa7eb511ff985ff5e19
+SHA1: be0fe48cf1a4e77ae0e7daf7e38b2a76872ba692
+SHA256: e2dac1f5c8f2d06a8a5688fe64e4e2457ff80dc10a064821c1a22690a559e0d5
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterfivecolumnhomescreenDp
 Description: Five Column Homescreen with proper spacing!
@@ -127,9 +127,9 @@ Installed-Size: 130
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), com.chpwn.iconsupport
 Filename: ./debs/info.rpdev.betterfiveicondock_1.0.4_iphoneos-arm.deb
 Size: 10674
-MD5sum: 0b9872bf0b43ef0c1dcca1cf891155ce
-SHA1: f493b07cb84f8c79fe4bc2d33afb9406f86d006e
-SHA256: 565655784a41412c461163f646a8a756fd144587957e973506ab726396b1adab
+MD5sum: bb9d1d2562e41efdd81a4fce96038849
+SHA1: bc1cec4c16162aad8c4615cddd7815afdaf332c6
+SHA256: 16ca007526d2c6327576f380650d9e539894b0d65cf58e79a94a5ef420d7aaa5
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=betterfiveicondockDp
 Description: Five Icon Dock with proper spacing!
